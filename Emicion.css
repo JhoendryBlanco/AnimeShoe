@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: calibri;
+}
+
+body,html{
+    height: 100%;
+    width: 100%;
+}
+
+.cuerpoe{
+    display: flex;
+    flex-flow: column wrap;
+    flex: 5;
+    overflow-y:scroll;
+    background: black;
+}
+
+#emision{
+    display: flex;
+    background: green;
+    height: 40%;
+    flex-flow: row wrap;
+}
+
+#caratula{
+    min-width: 16%;
+    max-height: 46%; 
+    background: blue;
+}
+
+#status{
+    min-width: 84%;
+    max-height: 46%; 
+    background: black;
+}
+
+#descripciona{
+    max-height: 100%;
+    min-width: 100%;
+    background: yellow;
+}
+
+
+
+#emision1{
+    display: flex;
+    background: red;
+}
+#emision2{
+    display: flex;
+    background: red;
+}
+#emision3{
+    display: flex;
+    background: red;
+}
+#emision4{
+    display: flex;
+    background: red;
+}
+#emision5{
+    display: flex;
+    background: red;
+}
+#emision6{
+    display: flex;
+    background: red;
+}
+#emision7{
+    display: flex;
+    background: red;
+}
+#emision8{
+    display: flex;
+    background: red;
+}

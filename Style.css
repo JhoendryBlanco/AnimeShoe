@@ -1,0 +1,274 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: calibri;
+}
+
+body,html{
+    height: 100%;
+    width: 100%;
+    background: url(imagenes/contenedor.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.contenedor{
+    height: 100%;
+    width: 100%;
+    padding: 0% 15% 0% 15%;
+    display: flex; 
+}
+
+.contenedor1{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    border: solid;
+    flex-flow: column;
+    background: gray;
+}
+
+.cabeza{
+    flex: 0.8;
+    margin: 0.8em;
+    border: solid;
+    display: flex;
+    background-image: url(Imagenes/encabezado.jpg);
+}
+
+/*Estilos Generales*/
+#p{
+     margin: 0em 0em 0em 20em;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+
+nav li{
+    line-height: 1.2rem;
+    position: relative;
+}
+
+.menu ul{
+    position: absolute;
+}
+
+#prueba ul{
+    position: absolute;
+}
+.menu a{
+    text-decoration: none;
+    color: #ddd;
+    display: block;
+    padding: 0 2.4em;
+    transition: .4s;
+}
+
+nav a:hover{
+    background: rgba(0,0,0,.5);
+}
+
+
+/*Primer Nivel*/
+
+.menu{
+    background: #333;
+    display: table;
+    width: 100%;
+}
+
+.menu > li{
+    float: left;
+    
+}
+
+/*Segundo Nivel*/
+
+nav li li{
+    background: #222;
+    max-height: 0;
+    overflow: hidden;
+    transition: all .6s;
+    width: 200px;
+}
+
+nav li:hover > ul > li{
+    max-height: 500px;
+    overflow: visible;
+}
+
+nav {
+    max-height: 500px;
+    overflow: visible;
+}
+
+.menu > li > ul{
+    top: 100%;
+}
+
+/*Tercer Nivel*/
+
+.menu ul ul{
+    left: 100%;
+    top: 0;
+    
+}
+
+.cuerpo{
+    display: flex;
+    flex-flow: row wrap;
+    flex: 5;
+    background: black;
+}
+
+#a{
+    min-width: 48%;
+    border: solid;
+    border-color: gray;
+    margin: 1%;
+    transition: 1.5s ease;
+    display: flex;
+    flex-flow: row wrap;
+} 
+
+#img{
+    min-width: 50%;
+    background: url(imagenes/naruto/naruto.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+}
+
+#nom{
+    min-width: 50%;
+    display: flex;
+    background: url(imagenes/naruto/nombre.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#des{
+    min-width: 100%;
+    display: flex;
+    background: url(imagenes/naruto/descripcion.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#a:hover{
+		transform : scale(1.05);
+	}
+
+#b{
+    min-width: 48%;
+    border: solid;
+    border-color: gray;
+    margin: 1%;
+    transition: 1.5s ease;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#imgb{
+    min-width: 50%;
+    background: url(imagenes/bleach/bleach.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#nomb{
+    min-width: 50%;
+    background: url(imagenes/bleach/nombre.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#desb{
+    min-width: 100%;
+    background: url(imagenes/bleach/descripcion.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#b:hover{
+		transform : scale(1.05);
+	}
+
+#c{
+    min-width: 48%;
+    border: solid;
+    border-color: gray;
+    margin: 1%;
+    transition: 1.4s ease;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#imgc{
+    min-width: 50%;
+    background: url(imagenes/onepiece/onepiece.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#nomc{
+    min-width: 50%;
+    background: url(imagenes/onepiece/nombre.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#desc{
+    min-width: 100%;
+    background: url(imagenes/onepiece/descripcion.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#c:hover{
+		transform : scale(1.05);
+	}
+#d{
+    min-width: 48%;
+    border: solid;
+    border-color: gray;
+    margin: 1%;
+    transition: 1.5s ease;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#imgd{
+    min-width: 50%;
+    background: url(imagenes/dragonballsuper/dragonballsuper.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#nomd{
+    min-width: 50%;
+    background: url(imagenes/dragonballsuper/nombre.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#desd{
+    min-width: 100%;
+    background: url(imagenes/dragonballsuper/descripcion.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#d:hover{
+		transform : scale(1.05);
+	}
+.pie{
+    background: gray; 
+    display: flex;
+    flex: 0.2;
+    justify-content: center;
+    align-items: center;
+}
